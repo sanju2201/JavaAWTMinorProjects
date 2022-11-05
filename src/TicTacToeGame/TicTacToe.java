@@ -5,8 +5,8 @@ import java.awt.event.*;
 
 public class TicTacToe extends Frame implements ActionListener {
 
-    Button b1, b2, b3, b4, b5, b6, b7, b8, b9, winner;
-    Label tg,tgn,cg,cgn,p1,p1p,p2,p2p,pw;
+    Button b1, b2, b3, b4, b5, b6, b7, b8, b9;
+    Label  winner,tg,tgn,cg,cgn,p1,p1p,p2,p2p,pw;
     int t = 1;
     int totalGame = 5;
     int currentGame = 1;
@@ -77,11 +77,47 @@ public class TicTacToe extends Frame implements ActionListener {
         add(b9);
         b9.addActionListener(this);
 
-        winner= new Button("Winner");
-        winner.setBounds(100,620,100,30);
-        add(winner);
-        winner.addActionListener(this);
+        //tg,tgn,cg,cgn,p1,p1p,p2,p2p,pw
+        tg = new Label("Total Game");
+        tg.setBounds(30,500,80,30);
+        add(tg);
 
+
+        tgn = new Label("0");
+        tgn.setBounds(30,560,80,30);
+        add(tgn);
+
+        cg = new Label("Current Game");
+        cg.setBounds(140,500,80,30);
+        add(cg);
+
+        cgn = new Label("0");
+        cgn.setBounds(140,560,80,30);
+        add(cgn);
+
+        p1 = new Label("Player 1");
+        p1.setBounds(280,500,80,30);
+        add(p1);
+
+        p1p = new Label("0");
+        p1p.setBounds(280,560,80,30);
+        add(p1p);
+
+        p2 = new Label("Player 2");
+        p2.setBounds(390,500,80,30);
+        add(p2);
+
+        p2p = new Label("0");
+        p2p.setBounds(390,560,80,30);
+        add(p2p);
+
+        winner= new Label("Winner");
+        winner.setBounds(150,620,80,30);
+        add(winner);
+
+        pw = new Label("Game Not Over");
+        pw.setBounds(250,620,100,30);
+        add(pw);
     }
 
     public static void main(String[] args) {
