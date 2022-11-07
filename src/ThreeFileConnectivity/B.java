@@ -3,6 +3,7 @@ package ThreeFileConnectivity;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLOutput;
 
 public class B extends Frame implements ActionListener {
     Button sum;
@@ -30,6 +31,7 @@ public class B extends Frame implements ActionListener {
         sum = new Button("SUM");
         sum.setBounds(250,160,75,30);
         add(sum);
+        sum.addActionListener(this);
 
 
     }
@@ -41,6 +43,11 @@ public class B extends Frame implements ActionListener {
 
     }
     public void actionPerformed(ActionEvent e){
+        if(e.getSource()==sum){
+            int a = Integer.parseInt(t1.getText());
+            int b = Integer.parseInt(t2.getText());
+            System.out.println(a+b);
+        }
 
 
     }

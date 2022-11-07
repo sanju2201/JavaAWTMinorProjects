@@ -1,5 +1,7 @@
 package ThreeFileConnectivity;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -23,6 +25,7 @@ public class C extends Frame implements ActionListener {
         b1 = new Button("FACTORIAL");
         b1.setBounds(175,125,100,30);
         add(b1);
+        b1.addActionListener(this);
 
 
     }
@@ -33,8 +36,18 @@ public class C extends Frame implements ActionListener {
         obj.setVisible(true);
     }
 
+    public int factorial(int n){
+        if(n==1){
+            return 1;
+        }
+        return n*factorial(n-1);
+    }
+
+
     public  void actionPerformed(ActionEvent e){
         if(e.getSource()==b1){
+            int a = Integer.parseInt(t1.getText());
+            System.out.println(factorial(a));
 
         }
 
