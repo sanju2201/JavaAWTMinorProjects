@@ -45,8 +45,8 @@ public class C extends Frame implements ActionListener {
 
 
     public  void actionPerformed(ActionEvent e){
+        int a = Integer.parseInt(t1.getText());
         if(e.getSource()==b1){
-            int a = Integer.parseInt(t1.getText());
             System.out.println(factorial(a));
 
         }

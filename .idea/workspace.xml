@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3e5fabc-cd0e-4fca-bc9a-a613f8e77f8a" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/que.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeFileConnectivity/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreeFileConnectivity/A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ThreeFileConnectivity/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreeFileConnectivity/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ThreeFileConnectivity/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreeFileConnectivity/C.java" afterDir="false" />
     </list>
@@ -111,8 +111,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.C" />
         <item itemvalue="Application.B" />
+        <item itemvalue="Application.C" />
         <item itemvalue="Application.Question" />
         <item itemvalue="Application.TicTacToe" />
       </list>
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667645189559</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial Commit">
+      <created>1667790723662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667790723662</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

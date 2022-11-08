@@ -43,10 +43,12 @@ public class B extends Frame implements ActionListener {
 
     }
     public void actionPerformed(ActionEvent e){
+        int a = Integer.parseInt(t1.getText());
+        int b = Integer.parseInt(t2.getText());
+        int c=0;
         if(e.getSource()==sum){
-            int a = Integer.parseInt(t1.getText());
-            int b = Integer.parseInt(t2.getText());
-            System.out.println(a+b);
+            c=a+b;
+            System.out.println(c);
         }
 
 
